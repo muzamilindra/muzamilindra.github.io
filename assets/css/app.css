@@ -31748,7 +31748,7 @@ ul.arrow-list li::before {
   padding: 50px 0;
   border-top: 1px solid #e1e8ee;
   border-bottom: 1px solid #e1e8ee;
-  background: #f5f8fa url("../../img/icon/icon-circles.png") no-repeat scroll center bottom;
+  background: #f5f8fa url("../img/icon/icon-circles.png") no-repeat scroll center bottom;
 }
 
 .services img {
