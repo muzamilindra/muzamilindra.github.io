@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="assets/img/basic/favicon.ico" type="image/x-icon">
+    <title>Paper</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <style>
+        .loader {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #F5F8FA;
+            z-index: 9998;
+            text-align: center;
+        }
+
+        .plane-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+        }
+    </style>
+</head>
+<body>
+<!-- Pre loader -->
+<div id="loader" class="loader">
+    <div class="plane-container">
+        <div class="l-s-2 blink">LOADING</div>
+    </div>
+</div>
+
+<div id="app" class="paper-loading">
+<div class="mini-nav nav-offcanvas nav-offcanvas-desktop" data-sidebar-collapse="true">
+    <!-- Header -->
+<nav class="mainnav navbar navbar-default justify-content-between">
+    <div class="container relative">
+        <a class="navbar-brand" href="index.html" data-aos="fade-right"  
+        data-aos-easing="linear"
+        data-aos-duration="1500">
+            <!-- <img class="d-inline-block align-top" alt="" src="assets/img/basic/logo.png"> -->
+            <h3>Hello , there</h3>
+        </a>
+       
+    </div>
+</nav>
+</div>
+<main class="template-resume resume2">
+    <!-- Header -->
+    <section class="resume-header responsive">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 mx-md-auto p-t-40" 
+                data-aos="fade-up"  
+                data-aos-easing="linear"
+                data-aos-duration="1500">
+                    <h1>Muhammad Muzamil Indra Cahya</h1>
+                    <p class="subtitle">IT, Web &amp; App Developer</p>
+                    <ul class="social list-inline">
+                        <li class="list-inline-item"><a class="github" href="#"><i class="icon-github"></i></a></li>
+                        <li class="list-inline-item"><a class="facebook"href="#"><i class="icon-facebook"></i></a></li>
+                        <li class="list-inline-item"><a class="linkedin"href="#"><i class="icon-linkedin"></i></a></li>
+                        <li class="list-inline-item"><a class="instagram" href="#"><i class="icon-instagram"></i></a></li>
+                        <!-- <li class="list-inline-item"><a class="dribbble"href="#"><i class="icon-dribbble"></i></a></li>
+                        <li class="list-inline-item"><a class="behance"href="#"><i class="icon-behance"></i></a></li> -->
+                    </ul>
+             
+                </div>
+                <div class="col-lg-4 mx-md-auto">
+                    <img src="assets/img/INDRA.jpg" style="width:90% !important" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact -->
+    <section class="contactBar">
+        <div class="container ">
+            <div class="row contacts">
+                <div class="col-lg-4 col-md-4"><span> <img src="assets/img/icon/icon-envelope.png" alt=""></span>
+                    <p>muzamil.indra123@gmail.com</p>
+                </div>
+                <!-- <div class="col-lg-3 col-md-4 light"><span> <img src="assets/img/icon/icon-skype.png" alt=""></span>
+                    <p>paperskype</p>
+                </div> -->
+                <div class="col-lg-4 col-md-4"><span><img src="assets/img/icon/icon-phone.png" alt=""></span>
+                    <p>(+62)857-0449-9485</p>
+                </div>
+                <div class="col-lg-4 col-md-12"><a href="#" class="btn btn-primary">Hire me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills
+    <section>
+        <div class="container">
+            <header class="section-heading section-heading-icon">
+                <h2>My Expertise and Skills</h2>
+                <p>Student life was fun but I don&#x2019;t miss it</p>
+            </header>
+            <div class="row p-t-40">
+                <div class="col-lg-3">
+                    <div class="circular-progressbar">
+                        <input type="text" value="65" data-thickness="0.09" data-size="150" data-bgcolor="#F5F8FA"
+                               data-fgcolor="#3255AA">
+                        <div class="media-body text-center">
+                            <h5 class="heading">Web Design</h5>
+                            <span>	Subtitle</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="circular-progressbar">
+                        <input type="text" value="80" data-thickness="0.09" data-size="150" data-bgcolor="#F5F8FA"
+                               data-fgcolor="#03A9F4">
+                        <div class="media-body text-center">
+                            <h5 class="heading">Wordpress</h5>
+                            <span>	Subtitle</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="circular-progressbar">
+                        <input type="text" value="70" data-thickness="0.09" data-size="150" data-bgcolor="#F5F8FA"
+                               data-fgcolor="#03A9F4">
+                        <div class="media-body text-center">
+                            <h5 class="heading">Photoshop</h5>
+                            <span>	Subtitle</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="circular-progressbar">
+                        <input type="text" value="90" data-thickness="0.09" data-size="150" data-bgcolor="#F5F8FA"
+                               data-fgcolor="#03A9F4">
+                        <div class="media-body text-center">
+                            <h5 class="heading">Web Design</h5>
+                            <span>	Subtitle</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- portfolio -->
+    <section class="portfolio p-t-b-10">
+        <div class="container">
+            <header class="section-heading section-heading-icon">
+                <h2>Recent Projects</h2>
+                <p>Our clients love our work here, here are some examples of projects we work on and maintain</p>
+            </header>
+            <ul class="project-filter text-center p-b-40">
+                <li>Filter:</li>
+                <li class="filter" data-filter="*">all</li>
+                <li class="filter" data-filter=".type1">Websites</li>
+                <li class="filter" data-filter=".type3">Mobile</li>
+            </ul>
+            <div class="row masonry-container grid">
+                <div class="col-lg-4 masonry-post type1 type2 type6">
+                    <figure>
+                        <div class="img-wrapper">
+                            <img src="assets/img/project/angler.png" alt="/">
+                            <div class="img-overlay">
+                                <div class="figcaption">
+                                    <h4>
+
+                                        Company Profile PT Angler Biochemlab
+
+                                    </h4>
+                                    <p>Company profile with management content for web</p> <a class="btn btn-primary"
+                                                                         href="http://www.anglerlab.co.id/"><i
+                                        class="icon icon-external-link-square"></i> View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="col-lg-4 masonry-post type3 type4 type6">
+                    <figure>
+                        <div class="img-wrapper">
+                            <img src="assets/img/project/swat.png" alt="/">
+                            <div class="img-overlay">
+                                <div class="figcaption">
+                                    <h4>
+
+                                    Solid Waste Application Transportation (SWAT)
+
+                                    </h4>
+                                    <p>This application is used to monitor the waste collection process from various points to the final disposal site</p> <a class="btn btn-primary"
+                                                                         href="http://dkp.surabaya.go.id/swat/"><i
+                                        class="icon icon-external-link-square"></i> View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="col-lg-4 masonry-post type1 type2 type6">
+                    <figure>
+                        <div class="img-wrapper">
+                            <img src="assets/img/project/Swag.png" alt="/">
+                            <div class="img-overlay">
+                                <div class="figcaption">
+                                    <h4>
+                                    Service and Web Application Graveyard (SWAG)
+                                    </h4>
+                                    <p>application to monitor the development of the number of people buried in one day, up to the total.</p> <a class="btn btn-primary"
+                                                                         href="http://dkp.surabaya.go.id/swag/"><i
+                                        class="icon icon-external-link-square"></i> View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <!-- <div class="col-lg-4 masonry-post type1 type4">
+                    <figure>
+                        <div class="img-wrapper">
+                            <img src="assets/img/demo/portfolio/p4.jpg" alt="/">
+                            <div class="img-overlay">
+                                <div class="figcaption">
+                                    <h4>
+
+                                        Paper Portfolio Item
+
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet</p> <a class="btn btn-primary"
+                                                                         href="/portfolio-single.html"><i
+                                        class="icon icon-external-link-square"></i> View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="col-lg-4 masonry-post type1 type2">
+                    <figure>
+                        <div class="img-wrapper">
+                            <img src="assets/img/demo/portfolio/p5.jpg" alt="/">
+                            <div class="img-overlay">
+                                <div class="figcaption">
+                                    <h4>
+
+                                        Paper Portfolio Item
+
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet</p> <a class="btn btn-primary"
+                                                                         href="/portfolio-single.html"><i
+                                        class="icon icon-external-link-square"></i> View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="col-lg-4 masonry-post type1 type4 type5">
+                    <figure>
+                        <div class="img-wrapper">
+                            <img src="assets/img/demo/portfolio/p6.jpg" alt="/">
+                            <div class="img-overlay">
+                                <div class="figcaption">
+                                    <h4>
+
+                                        Paper Portfolio Item
+
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet</p> <a class="btn btn-primary"
+                                                                         href="/portfolio-single.html"><i
+                                        class="icon icon-external-link-square"></i> View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="col-lg-4 masonry-post type3 type2 type5">
+                    <figure>
+                        <div class="img-wrapper">
+                            <img src="assets/img/demo/portfolio/p7.jpg" alt="/">
+                            <div class="img-overlay">
+                                <div class="figcaption">
+                                    <h4>
+
+                                        Paper Portfolio Item
+
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet</p> <a class="btn btn-primary"
+                                                                         href="/portfolio-single.html"><i
+                                        class="icon icon-external-link-square"></i> View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="col-lg-4 masonry-post type1 type2 type3">
+                    <figure>
+                        <div class="img-wrapper">
+                            <img src="assets/img/demo/portfolio/p8.jpg" alt="/">
+                            <div class="img-overlay">
+                                <div class="figcaption">
+                                    <h4>
+                                        Paper Portfolio Item
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet</p> <a class="btn btn-primary"
+                                                                         href="/portfolio-single.html"><i
+                                        class="icon icon-external-link-square"></i> View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="col-lg-4 masonry-post type1 type2 type3">
+                    <figure>
+                        <div class="img-wrapper">
+                            <img src="assets/img/demo/portfolio/p9.jpg" alt="/">
+                            <div class="img-overlay">
+                                <div class="figcaption">
+                                    <h4>
+                                        Paper Portfolio Item
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet</p> <a class="btn btn-primary"
+                                                                         href="/portfolio-single.html"><i
+                                        class="icon icon-external-link-square"></i> View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </figure>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- Profiles Section -->
+    <section class="profiles p-b-80">
+        <div class="container">
+                <header>
+                    <h2>WORK &amp; EXPERINCE</h2>
+                    <p>
+I have worked in several companies, ranging from manufacturing companies
+ and software companies with dozens of clients</p>
+                </header>
+                <div class="row">
+                    <div class="col-lg-10 mx-md-auto">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="assets/img/client/intinet-logo.png" alt="">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="assets/img/client/angler_logo.png" alt="">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="assets/img/client/mmm-logo.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section class="hero-circles-bg p-t-b-40">
+        <div class="container">
+            <header class="section-heading">
+                <h2>Contact Me</h2>
+                <p>If you have any question just send me message</p>
+            </header>
+            <div class="row">
+                <div class="col-xl-6 mx-lg-auto text-center">
+                    <form>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control form-control-lg" placeholder="Name">
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control form-control-lg" placeholder="Subject">
+                            </div>
+                        </div>
+                        <div class="row p-t-b-10">
+                            <div class="col-lg-12">
+                                <input type="text" class="form-control form-control-lg" placeholder="Website">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <textarea class="form-control-lg" placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 p-b-40 p-t-10">
+                                <button type="submit" class="btn btn-primary btn-lg"><i class="icon icon-envelope"></i>
+                                    Send Message
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+</div>
+<!--End Page page_wrrapper -->
+<script src="assets/js/app.js"></script>
+<script src="assets/js/aos.js"></script>
+<script>
+AOS.init();
+
+</script>
+
+</body>
+</html>
