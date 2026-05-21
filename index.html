@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Arya Pratama — Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Particle Canvas Background -->
+  <canvas id="particles"></canvas>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <div class="nav-logo">
+        <span class="logo-bracket">&lt;</span>AP<span class="logo-bracket">/&gt;</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#hero" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <ul>
+      <li><a href="#hero" class="mob-link">Home</a></li>
+      <li><a href="#about" class="mob-link">About</a></li>
+      <li><a href="#skills" class="mob-link">Skills</a></li>
+      <li><a href="#portfolio" class="mob-link">Portfolio</a></li>
+      <li><a href="#contact" class="mob-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-greeting">
+        <span class="greeting-line"></span>
+        <p class="typed-greeting" id="typed-greeting"></p>
+      </div>
+      <h1 class="hero-name">
+        <span class="name-line" id="name-line">Arya Pratama</span>
+      </h1>
+      <div class="hero-roles">
+        <span class="role-prefix">I'm a&nbsp;</span>
+        <span class="role-text" id="role-text"></span>
+        <span class="role-cursor">|</span>
+      </div>
+      <p class="hero-desc">
+        Membangun pengalaman digital yang bermakna — dari baris pertama kode  
+        hingga pixel terakhir di layar.
+      </p>
+      <div class="hero-cta">
+        <a href="#portfolio" class="btn btn-primary">Lihat Karya</a>
+        <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+      </div>
+      <div class="hero-scroll">
+        <div class="scroll-indicator">
+          <div class="scroll-dot"></div>
+        </div>
+        <span>Scroll</span>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="code-window">
+        <div class="window-bar">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="window-title">portfolio.js</span>
+        </div>
+        <pre class="code-content" id="code-display"></pre>
+      </div>
+      <div class="floating-badge b1"><span>⚡</span> Fast</div>
+      <div class="floating-badge b2"><span>🎨</span> Creative</div>
+      <div class="floating-badge b3"><span>🔒</span> Secure</div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-header reveal">
+      <p class="section-tag">// about me</p>
+      <h2>Siapa Saya?</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-avatar reveal">
+        <div class="avatar-ring">
+          <div class="avatar-img">
+            <div class="avatar-initials">AP</div>
+          </div>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card reveal">
+            <span class="stat-num" data-target="4">0</span>+
+            <span class="stat-label">Tahun Pengalaman</span>
+          </div>
+          <div class="stat-card reveal">
+            <span class="stat-num" data-target="38">0</span>+
+            <span class="stat-label">Proyek Selesai</span>
+          </div>
+          <div class="stat-card reveal">
+            <span class="stat-num" data-target="21">0</span>+
+            <span class="stat-label">Klien Puas</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-text reveal">
+        <p>
+          Halo! Saya <strong>Arya Pratama</strong>, seorang <em>Full-Stack Developer</em>  
+          berbasis di Jakarta yang bersemangat dalam membangun produk digital  
+          yang elegan, cepat, dan berdampak.
+        </p>
+        <p>
+          Dengan lebih dari 4 tahun pengalaman, saya telah bekerja dengan startup,  
+          agensi kreatif, dan perusahaan enterprise — merancang solusi dari  
+          UI/UX hingga arsitektur backend.
+        </p>
+        <p>
+          Di luar coding, saya aktif berkontribusi pada komunitas open-source  
+          dan menulis artikel tentang best practices pengembangan web modern.
+        </p>
+        <div class="about-tags">
+          <span class="tag">📍 Jakarta, Indonesia</span>
+          <span class="tag">🎓 S1 Ilmu Komputer</span>
+          <span class="tag">💼 Open to Work</span>
+          <span class="tag">🌐 Remote Friendly</span>
+        </div>
+        <a href="#" class="btn btn-primary mt">Download CV</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-header reveal">
+      <p class="section-tag">// tech stack</p>
+      <h2>Keahlian Saya</h2>
+    </div>
+    <div class="skills-categories reveal">
+      <button class="skill-tab active" data-cat="frontend">Frontend</button>
+      <button class="skill-tab" data-cat="backend">Backend</button>
+      <button class="skill-tab" data-cat="tools">Tools & DevOps</button>
+    </div>
+    <div class="skills-grid" id="skills-grid">
+      <!-- Injected by JS -->
+    </div>
+    <div class="tech-orbit reveal">
+      <div class="orbit-center">Dev</div>
+      <div class="orbit orbit-1">
+        <div class="orbit-item" style="--i:0">JS</div>
+        <div class="orbit-item" style="--i:1">TS</div>
+        <div class="orbit-item" style="--i:2">Py</div>
+        <div class="orbit-item" style="--i:3">Go</div>
+      </div>
+      <div class="orbit orbit-2">
+        <div class="orbit-item" style="--i:0">React</div>
+        <div class="orbit-item" style="--i:1">Node</div>
+        <div class="orbit-item" style="--i:2">Docker</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio">
+    <div class="section-header reveal">
+      <p class="section-tag">// selected works</p>
+      <h2>Portofolio</h2>
+    </div>
+    <div class="portfolio-filter reveal">
+      <button class="filter-btn active" data-filter="all">Semua</button>
+      <button class="filter-btn" data-filter="web">Web App</button>
+      <button class="filter-btn" data-filter="mobile">Mobile</button>
+      <button class="filter-btn" data-filter="api">API / Backend</button>
+    </div>
+    <div class="portfolio-grid" id="portfolio-grid">
+      <!-- Injected by JS -->
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-header reveal">
+      <p class="section-tag">// get in touch</p>
+      <h2>Kontak Saya</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <p>Punya proyek menarik atau ingin berkolaborasi? Jangan ragu untuk menghubungi saya!</p>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="ci-icon">📧</div>
+            <div>
+              <p class="ci-label">Email</p>
+              <p class="ci-value">arya@example.dev</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon">💼</div>
+            <div>
+              <p class="ci-label">LinkedIn</p>
+              <p class="ci-value">linkedin.com/in/aryapratama</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon">🐙</div>
+            <div>
+              <p class="ci-label">GitHub</p>
+              <p class="ci-value">github.com/aryapratama</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <form class="contact-form reveal" id="contact-form">
+        <div class="form-group">
+          <input type="text" id="fname" placeholder=" " required />
+          <label for="fname">Nama Lengkap</label>
+        </div>
+        <div class="form-group">
+          <input type="email" id="femail" placeholder=" " required />
+          <label for="femail">Email</label>
+        </div>
+        <div class="form-group">
+          <input type="text" id="fsubject" placeholder=" " />
+          <label for="fsubject">Subjek</label>
+        </div>
+        <div class="form-group">
+          <textarea id="fmessage" rows="5" placeholder=" " required></textarea>
+          <label for="fmessage">Pesan</label>
+        </div>
+        <button type="submit" class="btn btn-primary full">
+          <span class="btn-text">Kirim Pesan</span>
+          <span class="btn-icon">→</span>
+        </button>
+        <div class="form-success" id="form-success">
+          ✅ Pesan terkirim! Saya akan membalas secepatnya.
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <span class="logo-bracket">&lt;</span>AP<span class="logo-bracket">/&gt;</span>
+      </div>
+      <p class="footer-copy">© 2026 Arya Pratama. Dibuat dengan ❤️ & ☕</p>
+      <div class="footer-socials">
+        <a href="#" class="social-link">GH</a>
+        <a href="#" class="social-link">LI</a>
+        <a href="#" class="social-link">TW</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
