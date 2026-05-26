@@ -546,14 +546,23 @@ function initContactForm() {
     btn.disabled = true;
     btn.querySelector('.btn-text').textContent = 'Mengirim...';
 
-    // Simulate send
+    const name    = document.getElementById('fname').value.trim();
+    const email   = document.getElementById('femail').value.trim();
+    const subject = document.getElementById('fsubject').value.trim();
+    const message = document.getElementById('fmessage').value.trim();
+
+    const waNumber = '6285704499485';
+    const text = `Halo, saya *${name}*%0AEmail: ${email}%0ASubjek: ${subject}%0A%0A${message}`;
+    const waUrl = `https://wa.me/${waNumber}?text=${text}`;
+
     setTimeout(() => {
+      window.open(waUrl, '_blank');
       success.classList.add('show');
       form.reset();
       btn.disabled = false;
       btn.querySelector('.btn-text').textContent = 'Kirim Pesan';
       setTimeout(() => success.classList.remove('show'), 5000);
-    }, 1400);
+    }, 800);
   });
 }
 
